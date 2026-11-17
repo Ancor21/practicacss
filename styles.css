@@ -1,0 +1,20 @@
+
+p {
+font-family: Arial, sans-serif;
+}
+h1, h2, h3 {
+font-family: Georgia, serif;
+}
+#ultimas-noticias {
+background-color: #f9f9f9;
+padding: 10px;
+}
+.noticia {
+background-color: lightgray;
+padding: 15px;
+margin-bottom: 10px;
+}
+.noticia h3 {
+color: darkblue;
+font-size: 20px;
+}

@@ -1,67 +1,69 @@
-/* Selector de Elemento */
 body {
-    font-family: Arial, sans-serif;
-    background-color: rgb(240, 240, 240); /* Color RGB para el fondo general */
-    margin: 0;
-    padding: 0;
+font-family: Arial, sans-serif;
+background-color: rgb(240, 240, 240); 
+margin: 0;
+padding: 0;
 }
-
-/* Selector de Agrupación */
 h1, h2, h3 {
-    font-family: Georgia, serif;
+ font-family: Georgia, serif;
 }
-
-/* Cabecera con color hexadecimal */
 #cabecera {
-    background-color: #1e3a8a; /* Color hexadecimal */
-    color: white; /* Nombre de color para el texto */
-    text-align: center;
-    padding: 20px;
+background-color: #1e3a8a; 
+ color: white;
+text-align: center;
+padding: 20px;
 }
-
-/* Menú de navegación con color RGB */
 #menu {
-    background-color: rgb(30, 41, 59); /* Color RGB */
+background-color: rgb(30, 41, 59);
     padding: 10px;
-    text-align: center;
+text-align: center;
 }
-
-/* Enlaces del menú */
 #menu a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
+color: white;
+text-decoration: none;
+margin: 0 15px;
 }
-
-/* Selector de ID para últimas noticias */
 #ultimas-noticias {
-    width: 600px;
-    margin: 20px auto;
+width: 600px;
+margin: 20px auto;
 }
-
-/* Selector de Clase: fondo de las noticias usando nombre de color */
 .noticia {
-    background-color: white; /* Nombre de color */
-    padding: 15px;
-    margin-bottom: 15px;
-    border: 1px solid lightgray; /* Nombre de color para el borde */
+background-color: white; /* Nombre de color */
+padding: 15px;
+margin-bottom: 15px;
+border: 1px solid lightgray; /* Nombre de color para el borde */
 }
-
-/* Selector Descendiente: titulares de las noticias con color hexadecimal */
 .noticia h3 {
-    color: #1e3a8a; /* Color hexadecimal */
-    font-size: 20px;
+color: #1e3a8a; /* Color hexadecimal */
+font-size: 20px;
 }
-
-/* Enlaces dentro de las noticias */
 .noticia a {
-    color: red; /* Nombre de color */
+color: red; /* Nombre de color */
 }
-
-/* Categorías (span) */
 .categoria {
-    background-color: #1e3a8a;
-    color: white;
-    padding: 3px 6px;
-    font-size: 11px;
+background-color: #1e3a8a;
+color: white;
+padding: 3px 6px;
+font-size: 11px;
+}
+* {
+box-sizing: border-box;
+}
+.noticia-uno {
+width: 600px;
+padding: 15px;
+border: 2px solid lightgray;
+ margin: 15px 0;
+}
+.noticia-dos {
+width: 600px;
+padding: 30px; /* Mayor relleno interior */
+border: 4px dashed #1e3a8a; /* Borde diferente y más grueso */
+margin: 30px 0; /* Mayor separación exterior */
+}
+.noticia-tres {
+    width: 500px; 
+    padding: 10px;
+    border: 2px solid red;
+    margin: 10px 0;
 }

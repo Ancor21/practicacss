@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mi Periódico Digital</title>
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Periódico Digital</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<div id="cabecera">
 <h1>Mi Periódico Digital</h1>
-<section>
-<h2>Últimas noticias</h2>       
-<div>
+<p>Tu fuente de información diaria</p>
+</div>
+<div id="menu">
+<a href="#ultimas-noticias">Inicio</a>
+<a href="#ultimas-noticias">Noticias</a>
+<a href="#pie">Contacto</a>
+</div><div id="ultimas-noticias">
+<h2>Últimas noticias</h2>
+<div class="noticia destacada">
+<span class="categoria">Tecnología</span>
 <h3>Nuevo avance en la inteligencia artificial</h3>
-<p><span class="categoria">Tecnología</span> Los expertos aseguran que <strong>las nuevas herramientas</strong> cambiarán el día a día. <a href="#">Leer más</a></p>
+<p>Los expertos aseguran que <strong>las nuevas herramientas</strong> cambiarán el día a día. <a href="#">Leer más</a></p>
 </div>
-<div>
+<div class="noticia">
+<span class="categoria">Deportes</span>
 <h3>Comienza el torneo regional de fútbol</h3>
-<p><span class="categoria">Deportes</span> Los equipos se preparan para <strong>la gran final</strong> que se jugará este fin de semana. <a href="#">Más información</a></p>
+<p>Los equipos se preparan para <strong>la gran final</strong> que se jugará este fin de semana. <a href="#">Más información</a></p>
 </div>
-<div>
+<div class="noticia">
+<span class="categoria">Entretenimiento</span>
 <h3>Éxito rotundo en el festival de cine</h3>
-<p><span class="categoria">Entretenimiento</span> La alfombra roja reunió a <strong>las mayores estrellas</strong> del panorama actual. <a href="#">Ver galería</a></p>
+<p>La alfombra roja reunió a <strong>las mayores estrellas</strong> del panorama actual. <a href="#">Ver galería</a></p>
 </div>
-</section>
+</div>
+<div id="pie">
+<p>&copy; 2026 Mi Periódico Digital. Todos los derechos reservados.</p>
+</div>
 </body>
 </html>
